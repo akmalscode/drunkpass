@@ -1,0 +1,33 @@
+{
+  "name": "drunk-pass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently 'npm run server' 'npm run client'",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelrazo25/do-not-trust-us-with-your-passwords.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelrazo25/do-not-trust-us-with-your-passwords/issues"
+  },
+  "homepage": "https://github.com/miguelrazo25/do-not-trust-us-with-your-passwords#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7",
+    "random-words": "^1.1.0",
+    "react-input-calendar": "^0.5.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
