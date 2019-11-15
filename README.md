@@ -27,12 +27,12 @@ This application is fynny game which will be determine you either you are drunk 
 
 ## Package to be install  <br/>
 
-- [x] mongoose > npm i mongoose
-- [x] express > npm i express
-- [x] axios > npm i axios
-- [x] random-words > npm i random-words
-- [x] moment > npm i moment
-- [x] react-router-dom > npm i react-router-dom
+- [x] mongoose > `npm i mongoose`
+- [x] express > `npm i express
+- [x] axios > `npm i axios`
+- [x] random-words > `npm i random-words`
+- [x] moment > `npm i moment`
+- [x] react-router-dom > `npm i react-router-dom`
 
 ### Deployment at herokuapp <br/>
 
